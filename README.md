@@ -1,5 +1,29 @@
 # Vim
 
+## Install
+
+Usually Vim is install in your Linux system no matter the distro, but to check if it is installed:
+
+```bash
+vim
+```
+
+ in shell/bash and a popup screen with a version number is shown like this one
+
+![vim](images/vim.jpg)
+
+If it is not installed, enter the following to install it:
+
+```bash
+sudo apt-get install vim
+```
+
+Enter your password and proceed
+
+The first and only prompt has a series of install options. Go for the first and default option **1**
+
+
+
 ## Basics
 
 Vim is a powerful yet frustrating tool for beginners. Some ideas are not intuitive for the average user. 
@@ -114,30 +138,6 @@ imap jj <esc>
 ```
 
 These settings make it so the lines are numbered, the line is auto indented at 4 spaces and that jj is mapped to \<esc>
-
-
-
-## Install
-
-Usually Vim is install in your Linux system no matter the distro, but to check if it is installed:
-
-```bash
-vim
-```
-
- in shell/bash and a popup screen with a version number is shown like this one
-
-![vim](images\vim.jpg)
-
-If it is not installed, enter the following to install it:
-
-```bash
-sudo apt-get install vim
-```
-
-Enter your password and proceed
-
-The first and only prompt has a series of install options. Go for the first and default option **1**
 
 
 
