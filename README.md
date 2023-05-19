@@ -112,13 +112,13 @@ This mapping is from jj -> \<esc>, therefore jj will actually be esc for Vim
 
 
 
-Of course, when you change this in your file, it will only effect the local file. To change it globally, you must enter
+Of course, when you change this in your file, it will only affect the local file. To change it globally, you must enter
 
 ```
 vi ~/.vimrc
 ```
 
-This will open a file that effects all vim instances from now on
+This will open a file that affects all vim instances from now on
 
 
 
